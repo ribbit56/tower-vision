@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+screenshots/
+test-results/
+playwright-report/
+blob-report/
+*.local
+*.log
+.vite
+*.tsbuildinfo
+
+# Claude Code local/session state; launch.json (dev server config for the
+# in-app browser preview) is genuinely project config and stays tracked.
+.claude/settings.local.json
